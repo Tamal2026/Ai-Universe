@@ -6,6 +6,7 @@
     <title>Ai Universe Hub</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.2/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/5d3b19e49f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -14,7 +15,23 @@
         <button class="btn btn-error text-white mt-7">Sort By Date</button>
     </div>
     </header>
+<main>
+    <div id="universe-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-5 ml-4" >
+      
+    </div>
 
+
+<dialog id="my_modal_3" class="modal">
+  <form method="dialog" class="modal-box">
+    <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+    <h3 id="ai-name" class="font-bold text-lg">Hello!</h3>
+    <div id="show-universe-container">
+
+    </div>
+  </form>
+</dialog>
+  
+</main>
 
     <script src="./ai-hub/hub.js"></script>
 </body>
