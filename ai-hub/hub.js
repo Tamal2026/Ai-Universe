@@ -53,9 +53,12 @@ console.log(universeMain);
 const aiName = document.getElementById('ai-name');
 aiName.innerText = universeMain.tool_name;
 
-showUniverseContainer = document.getElementById('show-universe-container')
+const showUniverseContainer = document.getElementById('show-universe-container')
 
-aiName.innerHTML = `
+showUniverseContainer.innerHTML = `
+<p><span></span>${universeMain?.accuracy?.description}  </p>
+<p>'${universeMain.website}'</p>
+
 
 
 
